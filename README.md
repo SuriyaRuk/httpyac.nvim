@@ -38,24 +38,24 @@ use {
 
 ### Using vim-plug
 ```vim
-Plug 'yourusername/httpyac.nvim'
+Plug 'SuriyaRuk/httpyac.nvim'
 ```
 
 ## Usage
 
 Create a `.http` file:
 ```http
-### Get Users
-GET https://api.example.com/users
-Authorization: Bearer token123
+### Get JSON Placeholder
+GET https://jsonplaceholder.typicode.com/posts/1
 
-### Create User
-POST https://api.example.com/users
+### Create Post
+POST https://jsonplaceholder.typicode.com/posts
 Content-Type: application/json
 
 {
-  "name": "John",
-  "email": "john@example.com"
+  "title": "foo",
+  "body": "bar",
+  "userId": 1
 }
 ```
 
