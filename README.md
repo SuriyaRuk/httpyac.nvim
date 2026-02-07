@@ -14,7 +14,7 @@ Neovim plugin for running HTTP requests from `.http` files using httpyac.
 ### Using lazy.nvim (LunarVim)
 ```lua
 {
-  "yourusername/httpyac.nvim",
+  "SuriyaRuk/httpyac.nvim",
   ft = "http",
   config = function()
     require("httpyac").setup({
@@ -28,7 +28,7 @@ Neovim plugin for running HTTP requests from `.http` files using httpyac.
 ### Using packer.nvim
 ```lua
 use {
-  'yourusername/httpyac.nvim',
+  'SuriyaRuk/httpyac.nvim',
   ft = 'http',
   config = function()
     require('httpyac').setup()
