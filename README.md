@@ -2,6 +2,8 @@
 
 Neovim plugin for running HTTP requests from `.http` files using httpyac.
 
+![Example](example-run.png)
+
 ## Requirements
 
 - Neovim >= 0.8.0
